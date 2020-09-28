@@ -1,0 +1,58 @@
+.banner{
+    overflow:hidden;
+}
+.img1{
+    position:relative;
+    width:100%;
+    height:500px;
+    margin-bottom: -4px;
+    background: url("https://dev-titanium-demo-com.3dcartstores.com/assets/images/slide1.jpg");
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+  }
+.img1:hover{
+    background-position: center;
+    background-size: 100%;
+}
+.img2{
+    width:33%;
+    height:263px;
+    background: url("https://dev-titanium-demo-com.3dcartstores.com/assets/images/image1.jpg");
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+.img2:hover{
+    background-size: 125%;
+    background-position: center;
+}
+.img3{
+    width:33%;
+    height:263px;
+    background: url("https://dev-titanium-demo-com.3dcartstores.com/assets/images/image2.jpg");
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+.img3:hover{
+    background-size: 125%;
+    background-position: center;
+}
+.img4{
+    width:34%;
+    height:263px;
+    background: url("https://dev-titanium-demo-com.3dcartstores.com/assets/images/image3.jpg");
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+.img4:hover{
+    background-size: 125%;
+    background-position: center;
+}
+.banner_bottom{
+    display:flex;
+    flex:wrap;
+    object-fit: cover;
+}

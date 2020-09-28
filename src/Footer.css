@@ -1,0 +1,21 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    background-color:#f9f9f9;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.socials{
+    display:flex;
+    justify-content: center;
+
+}
+.footer h1{
+    font-size:medium;
+    display:flex;
+    justify-content: center;
+    margin-top:40px;
+}
+.social{
+    margin-left:20px;
+}

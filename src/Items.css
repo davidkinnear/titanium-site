@@ -1,0 +1,14 @@
+.items{
+
+}
+.items_title{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.items_content{
+    display:flex;
+    margin-left:5%;
+    margin-right:5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
